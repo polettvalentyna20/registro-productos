@@ -1,0 +1,48 @@
+PROYECTO: Registro de Productos
+
+DESCRIPCIÓN:
+Aplicación web básica desarrollada en PHP que permite registrar productos mediante un formulario.
+La información se almacena en una base de datos MySQL.
+
+----------------------------------------
+REQUISITOS DEL SISTEMA
+----------------------------------------
+- PHP 8.0 o superior
+- MySQL / MariaDB
+- Servidor Apache
+- XAMPP (entorno de desarrollo)
+- Navegador web moderno
+
+----------------------------------------
+INSTALACIÓN DEL PROYECTO
+----------------------------------------
+
+1. Descargar o clonar el repositorio desde GitHub.
+
+2. Copiar la carpeta "registro-productos" dentro de la ruta:
+   XAMPP/htdocs/
+
+3. Iniciar Apache y MySQL desde el panel de control de XAMPP.
+
+4. Abrir el navegador y acceder a:
+   http://localhost/phpmyadmin
+
+5. Crear una base de datos con el nombre:
+   registro_productos
+
+6. Seleccionar la base de datos creada e importar el archivo:
+   sql/registro_productos.sql
+
+7. Una vez importada la base de datos, abrir el navegador y acceder a:
+   http://localhost/registro-productos
+
+----------------------------------------
+VERSIONES UTILIZADAS
+----------------------------------------
+- PHP: 8.x
+- Base de Datos: MySQL (MariaDB incluido en XAMPP)
+
+----------------------------------------
+AUTOR
+----------------------------------------
+Paulette Pastor Bueno
